@@ -81,7 +81,6 @@
   justify-content: space-between;
   align-items: center; }
   .course__сurrency {
-    width: 100px;
     display: flex;
     color: #9c9c9c;
     font-size: 0.8vw; }
