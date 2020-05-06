@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-size: 16px;
+    cursor: pointer;
 
     &-pointer {
         width: 24px;
@@ -13,5 +14,18 @@
         &__icon {
             width: 100%;
         }
+
     }
+    
+}
+
+.button2 {
+    border-radius: 18px;
+    border: 1px solid #c3c3c3;
+    color: $color-8;
+    opacity: 0.48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
