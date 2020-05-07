@@ -3,11 +3,29 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     cursor: pointer;
+    padding: 0 10px;
 
     &-pointer__icon {
         width: 100%;
+        margin-left: 5px;
+    }
+
+    &-sky {
+        background-color: $color-1;
+    }
+
+    &-red {
+        background-color: $color-2;
+    }
+
+    &-orange {
+        background-color: $color-4;
+    }
+
+    &-green {
+        background-color: $color-5;
     }
 }
 

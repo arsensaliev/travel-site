@@ -1,0 +1,22 @@
+.country {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+
+    &-head {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    &__img {
+        width: 100%;
+        position: absolute;
+    }
+
+    &-button {
+        margin-right: 21px;
+        margin-bottom: 18px;
+    }
+}

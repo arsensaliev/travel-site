@@ -1,5 +1,6 @@
 const slider = document.querySelector(".swiper-container");
 
-const mySwiper = new Swiper (slider, {
-    slidesPerView: 4
-  })
+let mySwiper = new Swiper(slider, {
+    slidesPerView: 4,
+    spaceBetween: 30,
+});

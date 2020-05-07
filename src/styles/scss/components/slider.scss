@@ -1,9 +1,8 @@
 .swiper-container {
-    width: 80%;
-    height: 280px;
-    border: 1px solid black;
+    width: 1500px;
+    min-height: 280px;
 }
 
-.swiper-slide {
-    width: auto !important;
+.swiper-slide:last-child {
+    margin-right: 0 !important;
 }
