@@ -1,7 +1,6 @@
 .country {
     display: flex;
     flex-direction: column;
-    width: auto;
 
     &-head {
         position: relative;
@@ -11,8 +10,8 @@
     }
 
     &__img {
-        width: 100%;
         position: absolute;
+        width: 100%;
     }
 
     &-button {
