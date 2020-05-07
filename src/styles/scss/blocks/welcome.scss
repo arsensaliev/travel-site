@@ -39,10 +39,15 @@
     }
 
     &-button {
-        width: 176px;
+        min-width: 176px;
         height: 52px;
         background-color: #2ec8d7;
         color: $color-7;
         margin-top: 71px;
+    }
+
+    &-pointer {
+        width: 24px;
+        height: 24px;
     }
 }

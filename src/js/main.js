@@ -1,16 +1,5 @@
-$(".owl-carousel").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    responsive: {
-        0: {
-            items: 1,
-        },
-        600: {
-            items: 3,
-        },
-        1000: {
-            items: 5,
-        },
-    },
-});
+const slider = document.querySelector(".swiper-container");
+
+const mySwiper = new Swiper (slider, {
+    slidesPerView: 4
+  })

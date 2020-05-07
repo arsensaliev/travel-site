@@ -15,7 +15,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2.5%; }
+  padding: 0 2.5%;
+  z-index: 2; }
   .header__title {
     font-size: 1.5vw;
     font-weight: 700;
@@ -59,11 +60,14 @@
     line-height: 36px;
     text-align: center; }
   .welcome-button {
-    width: 176px;
+    min-width: 176px;
     height: 52px;
     background-color: #2ec8d7;
     color: #ffffff;
     margin-top: 71px; }
+  .welcome-pointer {
+    width: 24px;
+    height: 24px; }
 
 .popular {
   width: 100%;
@@ -138,14 +142,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 16px;
+  justify-content: space-around;
   cursor: pointer; }
-  .button-pointer {
-    width: 24px;
-    height: 24px; }
-    .button-pointer__icon {
-      width: 100%; }
+  .button-pointer__icon {
+    width: 100%; }
 
 .button2 {
   border-radius: 18px;
@@ -156,5 +156,13 @@
   align-items: center;
   justify-content: center;
   cursor: pointer; }
+
+.swiper-container {
+  width: 80%;
+  height: 280px;
+  border: 1px solid black; }
+
+.swiper-slide {
+  width: auto !important; }
 
 /*# sourceMappingURL=main.css.map */

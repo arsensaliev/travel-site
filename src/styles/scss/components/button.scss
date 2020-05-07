@@ -3,20 +3,12 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 16px;
+    justify-content: space-around;
     cursor: pointer;
 
-    &-pointer {
-        width: 24px;
-        height: 24px;
-
-        &__icon {
-            width: 100%;
-        }
-
+    &-pointer__icon {
+        width: 100%;
     }
-    
 }
 
 .button2 {
