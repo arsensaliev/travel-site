@@ -216,6 +216,79 @@
     .place-rate__img {
       width: 100%; }
 
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10.5%;
+  margin-top: 82px; }
+  .card-wrapper {
+    width: 66%;
+    display: flex;
+    flex-direction: column; }
+  .card-button {
+    height: 47px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700; }
+    .card-button__sea {
+      width: 23%;
+      margin-top: 38px; }
+    .card-button__cruise {
+      width: 50%;
+      margin-top: 6%; }
+    .card-button__excursion {
+      width: 23%;
+      width: 166px;
+      height: 47px;
+      margin-top: 36px; }
+  .card-sea {
+    width: 100%;
+    height: 18vw;
+    background-image: url("../../assets/images/fish.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 92px; }
+  .card__title {
+    width: 333px;
+    color: #ffffff;
+    font-size: 2vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center; }
+    .card__title_cruise {
+      margin-top: 30px; }
+  .card-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .card-couple {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; }
+  .card-small {
+    width: 48.5%;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .card-exotic {
+    background-image: url("../../assets/images/exotic.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .card-cruise {
+    background-image: url("../../assets/images/cruise.png");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .card-excursion {
+    width: 32%;
+    background-image: url("../../assets/images/cityes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 92px; }
+
 .nav-bar {
   width: 21%;
   display: flex;
