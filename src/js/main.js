@@ -46,11 +46,14 @@ window.addEventListener("DOMContentLoaded", () => {
             425: {
                 slidesPerView: 1,
             },
-            
+
             1024: {
-                slidesPerView: 2,
+                slidesPerView: 1,
             },
 
+            1200: {
+                slidesPerView: 2,
+            },
         },
     });
 });
