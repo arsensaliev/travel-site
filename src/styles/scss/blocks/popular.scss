@@ -4,6 +4,10 @@
     flex-direction: column;
 
     &__head {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         margin-top: 100px;
     }
 
@@ -20,30 +24,25 @@
         height: 35px;
         font-size: 14px;
         margin-left: 2.15%;
-        color: $color-8;
-        font-weight: 700;
     }
 
     &-slider {
-        width: 80%;
-        margin: 0 auto;
         margin-top: 100px;
-
-        &-prev {
-            width: 50px;
-            height: 50px;
-            left: -7%;
-        }
-
-        &-next {
-            width: 50px;
-            height: 50px;
-            right: -7%;
-        }
     }
-
+    &-nav {
+        position: absolute;
+        border: 1px solid #c3c3c3;
+        background-color: #f3f3f3;
+        opacity: 0.48;
+        border-radius: 50%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
     &-country {
-        width: 23%;
+        width: 100%;
 
         &__head {
             width: 100%;
@@ -64,6 +63,16 @@
         background: $color-1;
         font-size: 14px;
         color: $color-7;
+
+        &-prev {
+            left: 96px;
+            top: -170px;
+        }
+
+        &-next {
+            right: 96px;
+            top: -170px;
+        }
     }
 
     &-pointer {

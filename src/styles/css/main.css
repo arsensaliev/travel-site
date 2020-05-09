@@ -16,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2.5%;
-  z-index: 2; }
+  z-index: 10; }
   .header__title {
     font-size: 1.5vw;
     font-weight: 700;
@@ -74,6 +74,10 @@
   display: flex;
   flex-direction: column; }
   .popular__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px; }
   .popular__title {
     color: #000000;
@@ -85,23 +89,22 @@
     width: 122px;
     height: 35px;
     font-size: 14px;
-    margin-left: 2.15%;
-    color: #000000;
-    font-weight: 700; }
+    margin-left: 2.15%; }
   .popular-slider {
-    width: 80%;
-    margin: 0 auto;
     margin-top: 100px; }
-    .popular-slider-prev {
-      width: 50px;
-      height: 50px;
-      left: -7%; }
-    .popular-slider-next {
-      width: 50px;
-      height: 50px;
-      right: -7%; }
+  .popular-nav {
+    position: absolute;
+    border: 1px solid #c3c3c3;
+    background-color: #f3f3f3;
+    opacity: 0.48;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; }
   .popular-country {
-    width: 23%; }
+    width: 100%; }
     .popular-country__head {
       width: 100%;
       height: 225px; }
@@ -116,6 +119,12 @@
     background: #2ec8d7;
     font-size: 14px;
     color: #ffffff; }
+    .popular-button-prev {
+      left: 96px;
+      top: -170px; }
+    .popular-button-next {
+      right: 96px;
+      top: -170px; }
   .popular-pointer {
     width: 20px;
     height: 19px; }
@@ -368,22 +377,12 @@
     color: #000000;
     font-weight: 700; }
   .feedback-slider {
-    width: 80%;
-    margin: 0 auto;
     margin-top: 100px; }
-    .feedback-slider-prev {
-      width: 50px;
-      height: 50px;
-      left: -7%; }
-    .feedback-slider-next {
-      width: 50px;
-      height: 50px;
-      right: -7%; }
   .feedback-wrapper {
     display: flex;
     justify-content: space-between; }
   .feedback-people {
-    width: 49%;
+    width: 100%;
     min-height: 365px;
     border-radius: 2px;
     border: 1px solid #d8d8d8;
@@ -393,7 +392,7 @@
     justify-content: space-around; }
     .feedback-people__text {
       width: 44%;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 400; }
     .feedback-people__info {
       display: flex;
@@ -408,6 +407,13 @@
       font-size: 18px;
       font-weight: 800;
       text-transform: uppercase; }
+  .feedback-button-prev {
+    left: 5%;
+    top: -158px;
+    z-index: 6; }
+  .feedback-button-next {
+    right: 5%;
+    top: -158px; }
 
 .nav-bar {
   width: 21%;
@@ -485,22 +491,63 @@
   justify-content: center;
   cursor: pointer; }
 
-.slider {
+.swiper-container {
+  width: 80%;
+  min-height: 280px; }
+
+.swiper-slide:last-child {
+  margin-right: 0 !important; }
+
+.swiper-button-prev {
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #c3c3c3;
+  background-color: #f3f3f3;
+  border-radius: 50%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  position: absolute !important;
+  left: 96px !important;
+  top: -160px !important;
+  opacity: 0.48;
+  z-index: 2; }
+  .swiper-button-prev::after {
+    content: ""; }
+
+.swiper-button-next {
+  width: 50px !important;
+  height: 50px !important;
+  border: 1px solid #c3c3c3;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute !important;
+  right: 96px !important;
+  top: -160px !important;
+  opacity: 0.48;
+  z-index: 2; }
+  .swiper-button-next::after {
+    content: ""; }
+
+.slider-navigarion {
   position: relative; }
-  .slider-nav {
-    position: absolute;
-    border: 1px solid #c3c3c3;
-    background-color: #f3f3f3;
-    opacity: 0.48;
-    border-radius: 50%;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer; }
+
+.slider-nav {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c3c3c3;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0.48;
+  cursor: pointer;
+  z-index: 8; }
 
 .country {
   display: flex;
@@ -512,8 +559,7 @@
     align-items: flex-end; }
   .country__img {
     position: absolute;
-    width: 100%;
-    height: 100%; }
+    width: 100%; }
   .country-button {
     margin-bottom: 19px;
     margin-right: 21px; }
