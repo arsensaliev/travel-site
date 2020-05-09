@@ -4,10 +4,6 @@
     flex-direction: column;
 
     &__head {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
         margin-top: 100px;
     }
 
@@ -24,14 +20,30 @@
         height: 35px;
         font-size: 14px;
         margin-left: 2.15%;
+        color: $color-8;
+        font-weight: 700;
     }
 
     &-slider {
+        width: 80%;
+        margin: 0 auto;
         margin-top: 100px;
+
+        &-prev {
+            width: 50px;
+            height: 50px;
+            left: -7%;
+        }
+
+        &-next {
+            width: 50px;
+            height: 50px;
+            right: -7%;
+        }
     }
-    
+
     &-country {
-        width: 100%;
+        width: 23%;
 
         &__head {
             width: 100%;

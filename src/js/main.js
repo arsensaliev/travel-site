@@ -2,10 +2,10 @@ window.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".swiper-container");
 
     new Swiper(slider, {
-        slidesPerView: 4,
+        width: 1500,
+        slidesPerView: 3,
         spaceBetween: 30,
         grabCursor: true,
-        loop: true,
 
         // Navigation arrows
         navigation: {
