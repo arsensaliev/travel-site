@@ -2,6 +2,15 @@
 @import "./settings/colors/color";
 @import "./settings/media/media";
 
+@import "./components/nav-bar";
+@import "./components/course";
+@import "./components/contact";
+@import "./components/button";
+@import "./components/slider";
+@import "./components/country";
+@import "./components/pagination";
+@import "./components/title";
+
 @import "./blocks/header";
 @import "./blocks/welcome";
 @import "./blocks/popular";
@@ -14,11 +23,3 @@
 @import "./blocks/team";
 @import "./blocks/footer";
 
-@import "./components/nav-bar";
-@import "./components/course";
-@import "./components/contact";
-@import "./components/button";
-@import "./components/slider";
-@import "./components/country";
-@import "./components/pagination";
-@import "./components/title";

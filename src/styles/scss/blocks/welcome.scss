@@ -44,6 +44,7 @@
         margin-top: 67px;
         text-transform: uppercase;
         text-align: center;
+
         @media all and (max-width: 1440px) {
             font-size: 64px;
         }
@@ -58,7 +59,7 @@
 
         @media all and (max-width: 425px) {
             width: 280px;
-            font-size: 28px;
+            font-size: 30px;
             margin-top: 0;
         }
     }
@@ -82,7 +83,7 @@
         }
 
         @media all and (max-width: 425px) {
-            font-size: 12px;
+            font-size: 14px;
             line-height: 20px;
             margin-top: 20px;
         }
@@ -96,7 +97,6 @@
         margin-top: 71px;
         font-size: 16px;
         font-weight: 700;
-        padding-left: 25px;
 
         @media all and (max-width: 425px) {
             width: 176px;

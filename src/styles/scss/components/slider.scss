@@ -2,6 +2,10 @@
     width: 80%;
     height: auto;
     margin: 0 !important;
+
+    @media all and (max-width: 768px) {
+        margin: 0 auto !important;
+    }
 }
 
 .swiper-slide:last-child {

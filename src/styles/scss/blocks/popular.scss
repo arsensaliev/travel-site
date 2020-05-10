@@ -2,19 +2,48 @@
     width: 100%;
     padding: 100px 4.75%;
 
+    &__head {
+        @media all and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__nav {
+        @media all and (max-width: 768px) {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        @media all and (max-width: 1024px) {
+        }
+    }
+
     &__title {
         color: $color-8;
         font-size: 3vw;
         font-weight: 800;
         text-transform: uppercase;
         margin-left: 4%;
+        text-align: center;
+        
+        @media all and (max-width: 1024px) {
+            font-size: 34px;
+        }
     }
 
     &__btn-cities {
         width: 122px;
         height: 35px;
         font-size: 14px;
-        margin-left: 2.15%;
+        margin-left: 10%;
+
+        @media all and (max-width: 768px) {
+            margin: 0;
+        }
     }
 
     &-slider {
@@ -23,14 +52,56 @@
         justify-content: space-between;
         align-items: center;
 
+        @media all and (max-width: 768px) {
+            margin-top: 50px;
+        }
+
         &__prev {
             border: 1px solid #f3f3f3;
             background-color: #f3f3f3;
+
+            &1 {
+                @media all and (max-width: 1920px) {
+                    display: none;
+                }
+
+                @media all and (max-width: 768px) {
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            &2 {
+                @media all and (max-width: 768px) {
+                    display: none;
+                }
+            }
         }
 
         &__next {
             background-color: #f3f3f3;
             border: 1px solid #f3f3f3;
+
+            &1 {
+                @media all and (max-width: 1920px) {
+                    display: none;
+                }
+
+                @media all and (max-width: 768px) {
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            &2 {
+                @media all and (max-width: 768px) {
+                    display: none;
+                }
+            }
         }
     }
 
