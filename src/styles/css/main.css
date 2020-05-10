@@ -118,12 +118,18 @@
   .country-button {
     margin-bottom: 19px;
     margin-right: 21px; }
+    @media all and (max-width: 600px) {
+      .country-button {
+        display: none; } }
 
 .pagination {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 58px; }
+  @media all and (max-width: 768px) {
+    .pagination {
+      display: none; } }
   .pagination-prev {
     padding-left: 36px;
     padding-right: 43px; }
@@ -271,6 +277,12 @@
   width: 100%;
   padding: 100px 4.75%; }
   @media all and (max-width: 768px) {
+    .popular {
+      padding: 40px 3.75%; } }
+  @media all and (max-width: 425px) {
+    .popular {
+      padding: 40px 1.75%; } }
+  @media all and (max-width: 768px) {
     .popular__head {
       display: flex;
       flex-direction: column; } }
@@ -319,6 +331,10 @@
           display: flex;
           align-items: center;
           justify-content: center; } }
+      @media all and (max-width: 425px) {
+        .popular-slider__prev1 {
+          width: 36px;
+          height: 36px; } }
       @media all and (max-width: 768px) {
         .popular-slider__prev2 {
           display: none; } }
@@ -334,6 +350,10 @@
           display: flex;
           align-items: center;
           justify-content: center; } }
+      @media all and (max-width: 425px) {
+        .popular-slider__next1 {
+          width: 36px;
+          height: 36px; } }
       @media all and (max-width: 768px) {
         .popular-slider__next2 {
           display: none; } }
@@ -382,7 +402,9 @@
       justify-content: center; } }
   .search__inputs {
     display: flex;
-    margin-top: 30px; }
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center; }
   .search__title {
     font-size: 14px;
     font-weight: 700;
@@ -402,8 +424,8 @@
         width: 28%; } }
     @media all and (max-width: 768px) {
       .search-block_big {
-        width: 48%; } }
-    @media all and (max-width: 425px) {
+        width: 47%; } }
+    @media all and (max-width: 500px) {
       .search-block_big {
         width: 100%; } }
   .search-block_small {
@@ -444,7 +466,7 @@
   @media all and (max-width: 768px) {
     .search__night {
       display: none; } }
-  @media all and (max-width: 425px) {
+  @media all and (max-width: 500px) {
     .search__to {
       display: none; } }
   .search__head {
@@ -463,6 +485,9 @@
   flex-direction: column;
   align-items: center;
   padding: 0 10.47%; }
+  @media all and (max-width: 600px) {
+    .place {
+      padding: 0 7%; } }
   .place-countries {
     display: flex;
     flex-wrap: wrap;
@@ -471,6 +496,20 @@
   .place-country {
     width: 32%;
     margin-top: 28px; }
+    @media all and (max-width: 1260px) {
+      .place-country {
+        width: 45%; } }
+    @media all and (max-width: 900px) {
+      .place-country {
+        width: 85%;
+        margin: 30px auto; } }
+    @media all and (max-width: 600px) {
+      .place-country {
+        display: none; } }
+    @media all and (max-width: 600px) {
+      .place-country__active {
+        width: 100%;
+        display: block; } }
     .place-country__head {
       width: 100%;
       height: 303px;
@@ -483,6 +522,9 @@
       color: #000000;
       font-size: 24px;
       font-weight: 700; }
+      @media all and (max-width: 600px) {
+        .place-country__name {
+          font-size: 18px; } }
     .place-country__date {
       color: #ffffff;
       font-size: 14px;
@@ -497,6 +539,11 @@
     background: #2ec8d7;
     font-size: 14px;
     color: #ffffff; }
+    @media all and (max-width: 600px) {
+      .place-button {
+        width: 188px;
+        height: 41px;
+        margin-top: 10px; } }
     .place-button_more {
       width: 250px;
       height: 61px;
@@ -505,6 +552,12 @@
       font-size: 18px;
       font-weight: 700;
       margin-top: 105px; }
+      @media all and (max-width: 600px) {
+        .place-button_more {
+          margin-top: 30px;
+          border: 2px solid #ff9c00;
+          background-color: #ffffff;
+          color: #ff9c00; } }
   .place-pointer {
     width: 20px;
     height: 19px; }
@@ -515,6 +568,9 @@
       color: #282828;
       font-size: 16px;
       font-weight: 300; }
+      @media all and (max-width: 600px) {
+        .place-rate__name {
+          font-size: 14px; } }
     .place-rate__img-container {
       width: 71px;
       margin-left: 14px; }

@@ -12,5 +12,9 @@
     &-button {
         margin-bottom: 19px;
         margin-right: 21px;
+
+        @media all and (max-width: 600px) {
+            display: none;
+        }
     }
 }

@@ -4,6 +4,10 @@
     align-items: center;
     margin-top: 58px;
 
+    @media all and (max-width: 768px) {
+        display: none;
+    }
+
     &-prev {
         padding-left: 36px;
         padding-right: 43px;
