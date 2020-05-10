@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    display: flex;
+
+    &__facebook {
+        width: 36.6%;
+        height: 278px;
+        background-color: $color-4;
+        padding-top: 95px;
+    }
+
+    &__instagram {
+        width: 63.4%;
+        height: 278px;
+        background-image: url("../../assets/images/bg-sky.png");
+        display: flex;
+        padding-top: 95px;
+        padding-left: 70px;
+    }
+
+    &__photos {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 61px;
+    }
+
+    &__photo--container {
+        width: 109px;
+    }
+
+    &__photo {
+        width: 100%;
+    }
+
+    &__follow--instagram {
+        width: 110px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__trip--red {
+        color: $color-2;
+    }
+}

@@ -518,6 +518,39 @@
     margin-top: 30px;
     font-size: 14px; }
 
+.footer {
+  width: 100%;
+  display: flex; }
+  .footer__facebook {
+    width: 36.6%;
+    height: 278px;
+    background-color: #ff9c00;
+    padding-top: 95px; }
+  .footer__instagram {
+    width: 63.4%;
+    height: 278px;
+    background-image: url("../../assets/images/bg-sky.png");
+    display: flex;
+    padding-top: 95px;
+    padding-left: 70px; }
+  .footer__photos {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 61px; }
+  .footer__photo--container {
+    width: 109px; }
+  .footer__photo {
+    width: 100%; }
+  .footer__follow--instagram {
+    width: 110px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase; }
+  .footer__trip--red {
+    color: #ff2e33; }
+
 .nav-bar {
   width: 21%;
   display: flex;
