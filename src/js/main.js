@@ -61,15 +61,35 @@ window.addEventListener("DOMContentLoaded", () => {
 
     new Swiper(slider3, {
         // slidesPerView: 4,
-        slidesPerView: 6,
         spaceBetween: 30,
         grabCursor: true,
         loop: true,
 
         // Navigation arrows
         navigation: {
-            nextEl: ".advice-button-next",
-            prevEl: ".advice-button-prev",
+            nextEl: ".advice-slider__next",
+            prevEl: ".advice-slider__prev",
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+            },
+
+            768: {
+                slidesPerView: 2,
+            },
+
+            1024: {
+                slidesPerView: 3,
+            },
+
+            1440: {
+                slidesPerView: 4,
+            },
+
+            1920: {
+                slidesPerView: 5,
+            },
         },
     });
 });

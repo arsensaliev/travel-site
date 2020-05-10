@@ -1,6 +1,7 @@
 .swiper-container {
     width: 80%;
-    min-height: 280px;
+    height: auto;
+    margin: 0 !important;
 }
 
 .swiper-slide:last-child {
@@ -54,14 +55,11 @@
 .slider-nav {
     width: 50px;
     height: 50px;
-    border: 1px solid #c3c3c3;
-    background-color: #f3f3f3;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     opacity: 0.48;
+    outline: none;
     cursor: pointer;
-    z-index: 8;
 }
