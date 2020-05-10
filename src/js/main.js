@@ -11,8 +11,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
         // Navigation arrows
         navigation: {
-            nextEl: ".popular-button-next",
-            prevEl: ".popular-button-prev",
+            nextEl: ".popular-slider__next",
+            prevEl: ".popular-slider__prev",
         },
 
         breakpoints: {
