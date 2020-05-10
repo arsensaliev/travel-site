@@ -132,8 +132,7 @@
   justify-content: space-between;
   background-color: #282828;
   width: 100%;
-  min-height: 222px;
-  margin-top: 99px;
+  height: 222px;
   padding: 0 10.35%; }
   .search__title {
     font-size: 14px;
