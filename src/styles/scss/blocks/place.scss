@@ -21,6 +21,8 @@
             height: 303px;
             justify-content: space-between !important;
             height: 303px;
+            background-repeat: no-repeat;
+            background-size: cover;
             // align-items: start !important;
         }
 
@@ -82,5 +84,29 @@
         &__img {
             width: 100%;
         }
+    }
+
+    &_fontan {
+        background-image: url("../../assets/images/egipet-fontan.png");
+    }
+
+    &_otel {
+        background-image: url("../../assets/images/egipet-2.png");
+    }
+
+    &_cruise {
+        background-image: url("../../assets/images/egipet-3.png");
+    }
+
+    &_park {
+        background-image: url("../../assets/images/egipet-4.png");
+    }
+
+    &_relax {
+        background-image: url("../../assets/images/egipet-5.png");
+    }
+
+    &_castle {
+        background-image: url("../../assets/images/egipet-6.png");
     }
 }

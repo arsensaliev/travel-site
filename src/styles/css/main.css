@@ -200,7 +200,9 @@
       width: 100%;
       height: 303px;
       justify-content: space-between !important;
-      height: 303px; }
+      height: 303px;
+      background-repeat: no-repeat;
+      background-size: cover; }
     .place-country__name {
       margin-top: 20px;
       color: #000000;
@@ -243,6 +245,18 @@
       margin-left: 14px; }
     .place-rate__img {
       width: 100%; }
+  .place_fontan {
+    background-image: url("../../assets/images/egipet-fontan.png"); }
+  .place_otel {
+    background-image: url("../../assets/images/egipet-2.png"); }
+  .place_cruise {
+    background-image: url("../../assets/images/egipet-3.png"); }
+  .place_park {
+    background-image: url("../../assets/images/egipet-4.png"); }
+  .place_relax {
+    background-image: url("../../assets/images/egipet-5.png"); }
+  .place_castle {
+    background-image: url("../../assets/images/egipet-6.png"); }
 
 .card {
   width: 100%;

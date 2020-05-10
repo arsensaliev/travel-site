@@ -1,6 +1,8 @@
 window.addEventListener("DOMContentLoaded", () => {
     const slider = document.querySelector(".swiper-container1");
     const slider2 = document.querySelector(".swiper-container2");
+    const slider3 = document.querySelector(".swiper-container3");
+
     new Swiper(slider, {
         // slidesPerView: 4,
         spaceBetween: 30,
@@ -54,6 +56,20 @@ window.addEventListener("DOMContentLoaded", () => {
             1200: {
                 slidesPerView: 2,
             },
+        },
+    });
+
+    new Swiper(slider3, {
+        // slidesPerView: 4,
+        slidesPerView: 6,
+        spaceBetween: 30,
+        grabCursor: true,
+        loop: true,
+
+        // Navigation arrows
+        navigation: {
+            nextEl: ".advice-button-next",
+            prevEl: ".advice-button-prev",
         },
     });
 });
