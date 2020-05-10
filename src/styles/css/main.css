@@ -431,8 +431,7 @@
   background-image: url("../../assets/images/bg-advice.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0 4.75%;
-  padding-top: 100px; }
+  padding: 100px 4.75%; }
   .advice__title {
     color: #ffffff;
     font-size: 60px;
@@ -461,6 +460,20 @@
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase; }
+
+.team {
+  width: 100%;
+  padding: 130px 4.75%;
+  background-image: url("../../assets/images/bg_team.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: bottom; }
+  .team__title {
+    font-size: 3vw;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000; }
 
 .nav-bar {
   width: 21%;

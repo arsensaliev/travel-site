@@ -1,0 +1,16 @@
+.team {
+    width: 100%;
+    padding: 130px 4.75%;
+    background-image: url("../../assets/images/bg_team.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+
+    &__title {
+        font-size: 3vw;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+        color: $color-8;
+    }
+}
