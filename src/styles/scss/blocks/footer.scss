@@ -7,6 +7,27 @@
         height: 278px;
         background-color: $color-4;
         padding-top: 95px;
+        padding-left: 7.9%;
+    }
+
+    &__follow--facebook {
+        color: $color-8;
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__trip--green {
+        color: $color-5;
+    }
+
+    &__img-container {
+        width: 60%;
+        margin-top: 35px;
+    }
+
+    &__img {
+        width: 100%;
     }
 
     &__instagram {
@@ -15,7 +36,7 @@
         background-image: url("../../assets/images/bg-sky.png");
         display: flex;
         padding-top: 95px;
-        padding-left: 70px;
+        padding-left: 3.7%;
     }
 
     &__photos {
