@@ -40,8 +40,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
         // Navigation arrows
         navigation: {
-            nextEl: ".feedback-button-next",
-            prevEl: ".feedback-button-prev",
+            nextEl: ".feedback-slider__next",
+            prevEl: ".feedback-sldier__prev",
         },
 
         breakpoints: {
