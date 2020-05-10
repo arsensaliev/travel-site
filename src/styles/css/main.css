@@ -375,7 +375,7 @@
   justify-content: space-between;
   background-color: #282828;
   width: 100%;
-  height: 222px;
+  min-height: 222px;
   padding: 0 10.35%; }
   .search__title {
     font-size: 14px;
@@ -387,9 +387,27 @@
     position: relative;
     margin-top: 10px; }
   .search-block_big {
-    width: 25%; }
+    width: 23%; }
+    @media all and (max-width: 1024px) {
+      .search-block_big {
+        width: 25%; } }
+    @media all and (max-width: 900px) {
+      .search-block_big {
+        width: 28%; } }
+    @media all and (max-width: 768px) {
+      .search-block_big {
+        width: 48%; } }
+    @media all and (max-width: 425px) {
+      .search-block_big {
+        width: 100%; } }
   .search-block_small {
-    width: 10%; }
+    width: 12%; }
+    @media all and (max-width: 1024px) {
+      .search-block_small {
+        width: 14%; } }
+    @media all and (max-width: 900px) {
+      .search-block_small {
+        width: 17%; } }
   .search__input {
     width: 100%;
     height: 60px;
@@ -408,6 +426,21 @@
     position: absolute;
     right: 18px;
     top: 18px; }
+  @media all and (max-width: 1024px) {
+    .search__rate {
+      display: none; } }
+  @media all and (max-width: 900px) {
+    .search__food {
+      display: none; } }
+  @media all and (max-width: 768px) {
+    .search__categorie {
+      display: none; } }
+  @media all and (max-width: 768px) {
+    .search__night {
+      display: none; } }
+  @media all and (max-width: 425px) {
+    .search__to {
+      display: none; } }
 
 .place {
   width: 100%;
@@ -452,7 +485,7 @@
     .place-button_more {
       width: 250px;
       height: 61px;
-      border-radius: 30px !important;
+      border-radius: 30px;
       color: #ffffff;
       font-size: 18px;
       font-weight: 700;
