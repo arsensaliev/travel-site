@@ -370,13 +370,19 @@
 
 .search {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: #282828;
   width: 100%;
   min-height: 222px;
-  padding: 0 10.35%; }
+  padding: 50px 10.35%; }
+  @media all and (max-width: 768px) {
+    .search {
+      justify-content: center; } }
+  .search__inputs {
+    display: flex;
+    margin-top: 30px; }
   .search__title {
     font-size: 14px;
     font-weight: 700;
@@ -441,6 +447,15 @@
   @media all and (max-width: 425px) {
     .search__to {
       display: none; } }
+  .search__head {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: none; }
+    @media all and (max-width: 768px) {
+      .search__head {
+        display: block; } }
 
 .place {
   width: 100%;

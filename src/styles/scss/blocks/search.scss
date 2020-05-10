@@ -1,13 +1,21 @@
 .search {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-color: $color-6;
     width: 100%;
     min-height: 222px;
-    padding: 0 10.35%;
+    padding: 50px 10.35%;
 
+    @media all and (max-width: 768px) {
+        justify-content: center;
+    }
+
+    &__inputs {
+        display: flex;
+        margin-top: 30px;
+    }
     &__title {
         font-size: 14px;
         font-weight: 700;
@@ -102,6 +110,18 @@
     &__to {
         @media all and (max-width: 425px) {
             display: none;
+        }
+    }
+
+    &__head {
+        color: $color-7;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: none;
+
+        @media all and (max-width: 768px) {
+            display: block;
         }
     }
 }
