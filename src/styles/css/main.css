@@ -467,13 +467,56 @@
   background-image: url("../../assets/images/bg_team.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-y: bottom; }
+  background-position-y: 110%;
+  background-color: #f6f6f6; }
   .team__title {
     font-size: 3vw;
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    color: #000000; }
+    color: #000000;
+    margin-bottom: 58px; }
+  .team__people {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto; }
+  .team__item {
+    margin-top: 31px;
+    width: 31.8%;
+    min-height: 323px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px; }
+  .team__info {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .team__name {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase; }
+  .team__img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; }
+  .team__img {
+    width: 100%; }
+  .team__profession {
+    color: #2ec8d7;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px; }
+  .team__text {
+    margin-top: 30px;
+    font-size: 14px; }
 
 .nav-bar {
   width: 21%;

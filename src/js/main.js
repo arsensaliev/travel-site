@@ -22,12 +22,11 @@ window.addEventListener("DOMContentLoaded", () => {
             768: {
                 slidesPerView: 2,
             },
-            1024: {
+            1440: {
                 slidesPerView: 3,
             },
-
-            1440: {
-                slidesPerView: 4,
+            1920: {
+                slidesPerView: 3,
             },
         },
     });
