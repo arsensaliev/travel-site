@@ -539,11 +539,14 @@
     background: #2ec8d7;
     font-size: 14px;
     color: #ffffff; }
-    @media all and (max-width: 600px) {
-      .place-button {
-        width: 188px;
-        height: 41px;
-        margin-top: 10px; } }
+    .place-button__small {
+      display: none; }
+      @media all and (max-width: 600px) {
+        .place-button__small {
+          display: flex;
+          width: 188px;
+          height: 41px;
+          margin-top: 10px; } }
     .place-button_more {
       width: 250px;
       height: 61px;

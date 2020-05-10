@@ -78,10 +78,15 @@
         font-size: 14px;
         color: $color-7;
 
-        @media all and (max-width: 600px) {
-            width: 188px;
-            height: 41px;
-            margin-top: 10px;
+        &__small {
+            display: none;
+
+            @media all and (max-width: 600px) {
+                display: flex;
+                width: 188px;
+                height: 41px;
+                margin-top: 10px;
+            }
         }
 
         &_more {
