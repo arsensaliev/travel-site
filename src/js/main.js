@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 slidesPerView: 3,
             },
             1920: {
-                slidesPerView: 3,
+                slidesPerView: 4,
             },
         },
     });
