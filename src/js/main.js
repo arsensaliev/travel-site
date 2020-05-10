@@ -88,7 +88,7 @@ window.addEventListener("DOMContentLoaded", () => {
             },
 
             1920: {
-                slidesPerView: 5,
+                slidesPerView: 6,
             },
         },
     });
