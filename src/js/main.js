@@ -4,7 +4,6 @@ window.addEventListener("DOMContentLoaded", () => {
     const slider3 = document.querySelector(".swiper-container3");
 
     new Swiper(slider, {
-        // slidesPerView: 4,
         spaceBetween: 30,
         grabCursor: true,
         loop: true,
@@ -32,7 +31,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
     new Swiper(slider2, {
-        // slidesPerView: 4,
         spaceBetween: 30,
         grabCursor: true,
         loop: true,
@@ -59,7 +57,6 @@ window.addEventListener("DOMContentLoaded", () => {
     });
 
     new Swiper(slider3, {
-        // slidesPerView: 4,
         spaceBetween: 30,
         grabCursor: true,
         loop: true,
