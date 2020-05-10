@@ -386,8 +386,7 @@
 
 .feedback {
   width: 100%;
-  padding: 0 4.75%;
-  padding-top: 120px; }
+  padding: 100px 4.75%; }
   .feedback__title {
     color: #000000;
     font-size: 3vw;
