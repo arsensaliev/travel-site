@@ -5,10 +5,25 @@
     padding: 0 10.5%;
     margin-top: 82px;
 
+    @media all and (max-width: 1360px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
     &-wrapper {
         width: 66%;
         display: flex;
         flex-direction: column;
+
+        @media all and (max-width: 1360px) {
+            width: 70%;
+        }
+
+        @media all and (max-width: 425px) {
+            width: 85%;
+        }
     }
 
     &-button {
@@ -17,21 +32,51 @@
         font-size: 16px;
         font-weight: 700;
 
+        @media all and (max-width: 1920px) {
+            min-width: 188px;
+            height: 41px;
+            font-size: 14px;
+        }
+
+        @media all and (max-width: 1360px) {
+            min-width: 188px;
+            height: 41px;
+            font-size: 14px;
+        }
+        
+
         &__sea {
             width: 23%;
             margin-top: 38px;
+
+            @media all and (max-width: 425px) {
+                width: 188px;
+                height: 41px;
+                font-size: 14px;
+            }
         }
 
         &__cruise {
             width: 50%;
             margin-top: 6%;
+
+            @media all and (max-width: 1360px) {
+                width: 188px;
+                height: 41px;
+                font-size: 14px;
+            }
         }
 
         &__excursion {
-            width: 23%;
-            width: 166px;
+            min-width: 181px;
             height: 47px;
             margin-top: 36px;
+
+            @media all and (max-width: 1360px) {
+                width: 188px;
+                height: 41px;
+                font-size: 14px;
+            }
         }
     }
 
@@ -40,8 +85,11 @@
         height: 18vw;
         background-image: url("../../assets/images/fish.png");
         background-repeat: no-repeat;
-        background-size: contain;
-        padding-top: 92px;
+        background-size: cover;
+
+        @media all and (max-width: 1360px) {
+            height: 300px;
+        }
     }
 
     &__title {
@@ -52,15 +100,24 @@
         text-transform: uppercase;
         text-align: center;
 
+        @media all and (max-width: 1360px) {
+            font-size: 24px;
+        }
+
+        @media all and (max-width: 425px) {
+            width: 80%;
+        }
+
         &_cruise {
             margin-top: 30px;
+            width: auto;
         }
     }
-    
     &-center {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     &-couple {
@@ -68,6 +125,13 @@
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
+
+        @media all and (max-width: 1360px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
     }
 
     &-small {
@@ -77,6 +141,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        @media all and (max-width: 1360px) {
+            width: 100%;
+            height: 300px;
+        }
     }
 
     &-exotic {
@@ -96,6 +165,24 @@
         background-image: url("../../assets/images/cityes.png");
         background-size: cover;
         background-repeat: no-repeat;
-        padding-top: 92px;
+
+        @media all and (max-width: 1360px) {
+            width: 70%;
+            height: 300px;
+        }
+
+        @media all and (max-width: 425px) {
+            width: 85%;
+        }
+    }
+
+    &-img-wrapper {
+        width: 55px;
+        height: 55px;
+    }
+
+    &__icon {
+        width: 100%;
+        height: 100%;
     }
 }
