@@ -46,12 +46,25 @@ window.addEventListener("DOMContentLoaded", () => {
                 slidesPerView: 1,
             },
 
+            768: {
+                navigation: {
+                    nextEl: "#feed_next",
+                    prevEl: "#feed_prev",
+                },
+            },
             1024: {
                 slidesPerView: 1,
             },
 
             1200: {
                 slidesPerView: 2,
+            },
+
+            2560: {
+                navigation: {
+                    nextEl: "#feed_next",
+                    prevEl: "#feed_prev2",
+                },
             },
         },
     });
