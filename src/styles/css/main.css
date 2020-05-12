@@ -1102,6 +1102,9 @@
     @media all and (max-width: 1200px) {
       .team__item {
         width: 100%; } }
+    @media all and (max-width: 768px) {
+      .team__item {
+        padding: 30px; } }
   .team__info {
     margin-top: 25px;
     display: flex;
@@ -1156,16 +1159,51 @@
     background-color: #ff9c00;
     padding-top: 95px;
     padding-left: 7.9%; }
+    @media all and (max-width: 768px) {
+      .footer__facebook {
+        display: none; } }
+    @media all and (max-width: 425px) {
+      .footer__facebook {
+        display: flex;
+        width: 100%;
+        padding: 0 40px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; } }
+  .footer__links {
+    display: none; }
+    @media all and (max-width: 425px) {
+      .footer__links {
+        display: flex;
+        width: 60px;
+        justify-content: space-between; } }
   .footer__follow--facebook {
     color: #000000;
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase; }
+    @media all and (max-width: 425px) {
+      .footer__follow--facebook {
+        display: none; } }
+  .footer_licence {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    display: none; }
+    @media all and (max-width: 425px) {
+      .footer_licence {
+        display: block; } }
   .footer__trip--green {
     color: #4b8b3f; }
   .footer__img-container {
     width: 60%;
     margin-top: 35px; }
+    @media all and (max-width: 425px) {
+      .footer__img-container {
+        display: none; } }
   .footer__img {
     width: 100%; }
   .footer__instagram {
@@ -1175,11 +1213,25 @@
     display: flex;
     padding-top: 95px;
     padding-left: 3.7%; }
+    @media all and (max-width: 768px) {
+      .footer__instagram {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0; } }
+    @media all and (max-width: 425px) {
+      .footer__instagram {
+        display: none; } }
   .footer__photos {
     width: 65%;
     display: flex;
     justify-content: space-between;
     margin-left: 61px; }
+    @media all and (max-width: 768px) {
+      .footer__photos {
+        width: 80%;
+        margin: 0; } }
   .footer__photo--container {
     width: 109px; }
   .footer__photo {
@@ -1190,6 +1242,10 @@
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase; }
+    @media all and (max-width: 768px) {
+      .footer__follow--instagram {
+        font-size: 16px;
+        width: auto; } }
   .footer__trip--red {
     color: #ff2e33; }
 

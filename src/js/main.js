@@ -80,7 +80,7 @@ window.addEventListener("DOMContentLoaded", () => {
             prevEl: ".advice-slider__prev",
         },
         breakpoints: {
-            320: {
+            319: {
                 slidesPerView: 1,
             },
 
