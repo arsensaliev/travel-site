@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
 
+    @media all and (max-width: 1024px) {
+        display: none;
+    }
     &__link {
         color: $color-8;
         font-size: 0.8vw;

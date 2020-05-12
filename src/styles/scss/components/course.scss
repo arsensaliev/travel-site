@@ -4,6 +4,9 @@
     justify-content: space-between;
     align-items: center;
 
+    @media all and (max-width: 1024px) {
+        display: none;
+    }
     &__сurrency {
         display: flex;
         color: $color-9;
