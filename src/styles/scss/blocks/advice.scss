@@ -5,7 +5,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 4.75%;
-    
 
     &__title {
         color: $color-7;
@@ -13,6 +12,14 @@
         font-weight: 800;
         text-transform: uppercase;
         text-align: center;
+
+        @media all and (max-width: 768px) {
+            font-size: 54px;
+        }
+
+        @media all and (max-width: 768px) {
+            font-size: 34px;
+        }
     }
 
     &-slider {
