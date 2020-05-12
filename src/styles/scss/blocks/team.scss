@@ -1,0 +1,131 @@
+.team {
+    width: 100%;
+    padding: 130px 4.75%;
+    background-image: url("../../assets/images/bg_team.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 110%;
+    background-color: #f6f6f6;
+
+    &__title {
+        font-size: 3vw;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+        color: $color-8;
+        margin-bottom: 58px;
+
+        @media all and (max-width: 1024px) {
+            font-size: 34px;
+        }
+    }
+
+    &__people {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        @media all and (max-width: 1200px) {
+            display: none;
+        }
+    }
+
+    &__item {
+        margin-top: 31px;
+        width: 31.8%;
+        min-height: 323px;
+        background-color: $color-7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 56px;
+
+        @media all and (max-width: 1200px) {
+            width: 100%;
+        }
+
+        @media all and (max-width: 768px) {
+            padding: 30px;
+        }
+    }
+
+    &__info {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__name {
+        color: $color-8;
+        font-size: 20px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    &__img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    &-nav {
+        display: none;
+        margin: 0 auto;
+        
+        @media all and (max-width: 1200px) {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            width: 50%;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__profession {
+        color: $color-1;
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    &__text {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    &-slider {
+        margin: 0 auto;
+        display: none;
+
+        @media all and (max-width: 1200px) {
+            display: block;
+        }
+
+        &__next {
+            border: 1px solid #c3c3c3;
+            background-color: #f3f3f3;
+        }
+
+        &__prev {
+            border: 1px solid #c3c3c3;
+            background-color: #f3f3f3;
+        }
+    }
+}
+
+.swiper-container4 {
+    display: none;
+    margin: 0 auto !important;
+
+    @media all and (max-width: 1200px) {
+        display: block;
+    }
+}

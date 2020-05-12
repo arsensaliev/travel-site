@@ -1,0 +1,13 @@
+.nav-bar {
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+
+    &__link {
+        color: $color-8;
+        font-size: 0.8vw;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

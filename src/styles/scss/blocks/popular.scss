@@ -1,0 +1,174 @@
+.popular {
+    width: 100%;
+    padding: 100px 4.75%;
+
+    @media all and (max-width: 768px) {
+        padding: 40px 3.75%;
+    }
+
+    @media all and (max-width: 425px) {
+        padding: 40px 1.75%;
+    }
+
+    @media all and (max-width: 425px) {
+        padding: 40px 1.75%;
+    }
+
+    &__head {
+        @media all and (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__nav {
+        @media all and (max-width: 768px) {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            align-items: center;
+        }
+    }
+
+    &__title {
+        color: $color-8;
+        font-size: 3vw;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-left: 4%;
+        text-align: center;
+
+        @media all and (max-width: 1024px) {
+            font-size: 34px;
+        }
+    }
+
+    &__btn-cities {
+        width: 122px;
+        height: 35px;
+        font-size: 14px;
+        margin-left: 10%;
+
+        @media all and (max-width: 768px) {
+            margin: 0;
+        }
+    }
+
+    &-slider {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media all and (max-width: 768px) {
+            margin-top: 50px;
+        }
+
+        &__prev {
+            border: 1px solid #f3f3f3;
+            background-color: #f3f3f3;
+
+            &1 {
+                @media all and (max-width: 1920px) {
+                    display: none;
+                }
+
+                @media all and (max-width: 768px) {
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                @media all and (max-width: 425px) {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+
+            &2 {
+                @media all and (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+
+        &__next {
+            background-color: #f3f3f3;
+            border: 1px solid #f3f3f3;
+
+            &1 {
+                @media all and (max-width: 1920px) {
+                    display: none;
+                }
+
+                @media all and (max-width: 768px) {
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                @media all and (max-width: 425px) {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+
+            &2 {
+                @media all and (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &-country {
+        width: 100%;
+        height: 100%;
+
+        &__head {
+            width: 100%;
+            height: 225px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        &__name {
+            margin-top: 20px;
+            color: #000000;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+
+    &-button {
+        width: 150px;
+        height: 41px;
+        background: $color-1;
+        font-size: 14px;
+        color: $color-7;
+    }
+
+    &-pointer {
+        width: 20px;
+        height: 19px;
+    }
+
+    &_georgia {
+        background-image: url("../../assets/images/country/country-georgia.png");
+    }
+
+    &_maldiv {
+        background-image: url("../../assets/images/country/maldiv.png");
+    }
+
+    &_italia {
+        background-image: url("../../assets/images/country/italia.png");
+    }
+
+    &_french {
+        background-image: url("../../assets/images/country/french.png");
+    }
+}
