@@ -60,16 +60,14 @@ window.addEventListener("DOMContentLoaded", () => {
         grabCursor: true,
         loop: true,
 
+        slidesPerView: 1,
+
         // Navigation arrows
         navigation: {
             nextEl: ".advice-slider__next",
             prevEl: ".advice-slider__prev",
         },
         breakpoints: {
-            319: {
-                slidesPerView: 1,
-            },
-
             768: {
                 slidesPerView: 2,
             },
@@ -93,6 +91,12 @@ window.addEventListener("DOMContentLoaded", () => {
         grabCursor: true,
         loop: true,
         slidesPerView: 2,
+
+        navigation: {
+            nextEl: ".team-slider__next",
+            prevEl: ".team-slider__prev",
+        },
+
         breakpoints: {
             320: {
                 slidesPerView: 1,
